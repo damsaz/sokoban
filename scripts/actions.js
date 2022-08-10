@@ -284,4 +284,4 @@ function Gol() {
   if(winner)
   alert("you won!! by" +moves+" moves")
 }
-window.onscroll = () => { window.scroll(0, 0); };
+window.onscroll = () => { window.scroll(0, 0); }; 
