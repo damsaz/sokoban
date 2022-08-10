@@ -268,19 +268,20 @@ function Gol() {
         default:
           // code block
       }
-      for (let i = 0; i < Gtags.length; i++) {
-      
-        element = document.getElementById(Gtags[i]);
-        if(element.className!="GD")
-        {
-          winner=false;
-        }
-      }
-      if(winner)
-      alert("you won!! by" +moves+" moves")
+ 
     }
-  
+
   
   }
+  for (let i = 0; i < Gtags.length; i++) {
+      
+    element = document.getElementById(Gtags[i]);
+    if(element.className!="GD")
+    {
+      winner=false;
+    }
+  }
+  if(winner)
+  alert("you won!! by" +moves+" moves")
 }
 window.onscroll = () => { window.scroll(0, 0); };
