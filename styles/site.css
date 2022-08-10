@@ -94,4 +94,9 @@ img {
     padding: 20px 0;
     margin: 10px;
     background-color: #F3A921;
+    
+  }
+  #banner > p{ 
+    text-align: center;
+    font-size:35px;
   }
